@@ -32,3 +32,4 @@ class Menu:
             if item.name == order_name:
                 return item
         print("Sorry that item is not available.")
+        # as self.menu is a list object (inside the list, there are three MenuItem objects, the find_drink function actually return a MenuItem object.
